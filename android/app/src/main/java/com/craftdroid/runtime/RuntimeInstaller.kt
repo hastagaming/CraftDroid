@@ -1,12 +1,19 @@
 package com.craftdroid.runtime
 
+import java.io.File
+
 class RuntimeInstaller {
 
-    fun installUbuntu() {
-        println("Installing Ubuntu Runtime")
-    }
+    fun installUbuntu(root: String) {
 
-    fun installBox64() {
-        println("Installing Box64")
+        val runtimeDir = File(root)
+
+        if (!runtimeDir.exists()) {
+            runtimeDir.mkdirs()
+        }
+
+        File(runtimeDir, "rootfs").mkdirs()
+        File(runtimeDir, "tmp").mkdirs()
+        File(runtimeDir, "home").mkdirs()
     }
 }
