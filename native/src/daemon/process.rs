@@ -1,3 +1,8 @@
-pub fn start_process(name: &str) {
-    println!("Starting process: {}", name);
+use std::process::Command;
+
+pub fn start_process(command: &str) {
+    let _ = Command::new("sh")
+        .arg("-c")
+        .arg(command)
+        .spawn();
 }
