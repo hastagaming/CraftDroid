@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "edition": "bedrock",
+  "engine": "pocketmine",
+  "runtime": "ubuntu",
+  "architecture": "arm64",
+  "memory_limit": "2G",
+  "autostart": true
+}
