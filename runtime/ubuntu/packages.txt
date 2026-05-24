@@ -1,0 +1,7 @@
+# runtime/ubuntu/packages.txt
+ca-certificates
+curl
+wget
+git
+openjdk-21-jre
+php
