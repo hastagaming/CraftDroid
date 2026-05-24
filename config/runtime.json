@@ -1,0 +1,6 @@
+// config/runtime.json
+{
+  "runtime": "ubuntu",
+  "box64": false,
+  "java": "21"
+}
