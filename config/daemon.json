@@ -1,0 +1,5 @@
+{
+  "auto_restart": true,
+  "watchdog": true,
+  "monitor_interval": 5
+}
