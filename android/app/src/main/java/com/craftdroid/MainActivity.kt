@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import com.craftdroid.ui.App
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
